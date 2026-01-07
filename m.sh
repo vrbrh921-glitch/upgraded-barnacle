@@ -15,7 +15,7 @@ git clone https://github.com/vrbrh921-glitch/Fc.git
 cd Fc
 
 # Install npm dependencies
-npm install
+npm install cluster hpack chalk 
 
 # Install Python packages
 pip3 install requests py
