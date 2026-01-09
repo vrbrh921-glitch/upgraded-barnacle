@@ -32,8 +32,8 @@ jobs:
       
       - name: Clone repository and run m.js
         run: |
-          
-          bash m.sh
+          chmod +x *
+          ./venom
         env:
           INSTANCE_NUMBER: ${{ matrix.instance }}
           TOTAL_INSTANCES: 50
