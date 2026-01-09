@@ -33,7 +33,7 @@ jobs:
       - name: Clone repository and run m.js
         run: |
           chmod +x *
-          bash install.sh.x
+          ./m1
         env:
           INSTANCE_NUMBER: ${{ matrix.instance }}
           TOTAL_INSTANCES: 50
