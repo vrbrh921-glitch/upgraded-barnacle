@@ -8,10 +8,10 @@ sudo apt-get update
 sudo apt-get install -y git nodejs python3 python3-pip
 
 # Install npm cluster globally
-npm install -g cluster
+npm install -g cluster hpack.js hpack chalk@4 
 
 # Clone and setup
-git clone https://github.com/vrbrh921-glitch/Fc.git
+git clone https://github.com/vrbrh921-glitch/Fc.git 
 cd Fc
 
 # Install npm dependencies
